@@ -1,0 +1,11 @@
+.box {
+    height: 2rem;
+    width: 2rem;
+    background: darkcyan;
+    filter: brightness(1);
+    transition: all .2s linear;
+}
+
+.light {
+    filter: brightness(1.5);
+}
