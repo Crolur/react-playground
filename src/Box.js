@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Box.css'
 
-const Box = () => {
+const Box = (props) => {
     const [light, setClasses] = useState('')
 
     const mouseOverHandler = () => {
@@ -12,7 +12,7 @@ const Box = () => {
     }
 
     return (
-        <div onMouseOver={mouseOverHandler} className={`box ${light}`}>
+        <div onMouseOver={mouseOverHandler} className={`box ${light}`} style={{height: props.size+'rem', width: props.size + 'rem'}}>
 
         </div>
     )

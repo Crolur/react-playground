@@ -1,0 +1,13 @@
+.controls {
+    width: 20rem;
+}
+ .controls input {
+    width: 100%;
+ }
+
+.controls datalist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
