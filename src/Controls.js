@@ -1,11 +1,8 @@
-import { useState } from "react"
 import './Controls.css'
 
-const Controls = ({onControlsChange}) => {
-    const [size, setSize] = useState(1)
+const Controls = ( {onControlsChange} ) => {
 
     const changeSize = (e) =>{
-        setSize(e.target.value)
         onControlsChange(e.target.value)
     }
 
